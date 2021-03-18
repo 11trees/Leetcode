@@ -26,4 +26,8 @@ public class ListNode {
         }
         return head.next;
     }
+
+    public static void main(String[] args) {
+        ListNode head = null;
+    }
 }
