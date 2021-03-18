@@ -32,7 +32,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Q25ReverseNodesinKGroup">
+  <component name="RunManager" selected="Application.Q20ValidParentheses">
     <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.ListNode" />
       <module name="Leetcode" />
@@ -46,12 +46,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q21MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.Q21MergeTwoSortedLists" />
+    <configuration name="Q20ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Q20ValidParentheses" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q20ValidParentheses" />
         <item itemvalue="Application.Q25ReverseNodesinKGroup" />
         <item itemvalue="Application.ListNode" />
         <item itemvalue="Application.Q24SwapNodesInPairs" />
         <item itemvalue="Application.Q23MergeKSortedLists" />
-        <item itemvalue="Application.Q21MergeTwoSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616038060583</updated>
-      <workItem from="1616038062317" duration="8384000" />
+      <workItem from="1616038062317" duration="9907000" />
     </task>
     <servers />
   </component>
@@ -134,38 +134,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="717" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616043575705" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616050771986">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616052351201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616050771986" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616050771986">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616052351201" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616052351201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616050771986" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616050771986">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616052351201" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616052351201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616050771986" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616050771986">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616052351201" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616052351201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616050771986" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616050754302">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616052351201" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616052278612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616050754302" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616050754302">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616052278612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616050754302" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616050754302">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616052278612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616050754302" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616050754302">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616052278612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616050754302" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -174,11 +174,6 @@
           <url>file://$PROJECT_DIR$/src/LinkedList/Q2AddTwoNumbers.java</url>
           <line>32</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/Q25ReverseNodesinKGroup.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
