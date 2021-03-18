@@ -1,6 +1,11 @@
 package LinkedList;
 
 public class Q2AddTwoNumbers {
+    /*
+    Attention:
+        1. 使用三元运算符来减少代码行数 e1 ? e2 : e3
+        2. 注意终止条件：最后进位的处理
+     */
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
         ListNode head = new ListNode();
@@ -23,9 +28,8 @@ public class Q2AddTwoNumbers {
 
     //test
     public static void main(String[] args) {
-        ListNode l1 = new ListNode(2 , new ListNode(4 , new ListNode( 3 , null)));
-        ListNode l2 = new ListNode(5 , new ListNode( 6 , new ListNode( 4 , null)));
+        ListNode l1 = ListNode.toListNode(new int[] {2,4,3});
+        ListNode l2 = ListNode.toListNode(new int[] {2,4,3});
         System.out.println(addTwoNumbers(l1,l2));
     }
-
 }
