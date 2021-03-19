@@ -42,20 +42,26 @@ public class Q21MergeTwoSortedLists {
     public static ListNode mergeTwoListsRecur(ListNode l1 , ListNode l2){
         /*
             递归重点是将问题拆分成结构相同的子问题。(假设l1.val < l2.val)
+            1. Divide：
                 观察合并l1 l2 -> 返回一条合并链
                 取l1后 需合并l1.next l2 -> 返回剩余节点的合并链
                 可以看到两个问题结构相同。
-                注意截止条件，如果l1 == null 则返回 l2 即可
+            2. Conquer：
+                直到其中一个 == null位置，例如l1 == null 则返回 l2 即可
+            3. Combine:
+                子问题返回的链应该接在前一个问题后，故采用 l1.next = 子问题的形式。
          */
-        //Termination
+        //Base case
         if (l1 == null) return l2;
         if (l2 == null) return l1;
 
-        //Recursion
+        //Divide
         if(l1.val < l2.val){
+            //Combine
             l1.next = mergeTwoListsRecur(l1.next , l2);
             return l1;
         } else {
+            //Combine
             l2.next = mergeTwoListsRecur(l1 , l2.next);
             return l2;
         }
