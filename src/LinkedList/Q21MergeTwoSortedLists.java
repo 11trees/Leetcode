@@ -38,7 +38,7 @@ public class Q21MergeTwoSortedLists {
         return head.next;
     }
 
-    //递归
+    //分治策略
     public static ListNode mergeTwoListsRecur(ListNode l1 , ListNode l2){
         /*
             递归重点是将问题拆分成结构相同的子问题。(假设l1.val < l2.val)

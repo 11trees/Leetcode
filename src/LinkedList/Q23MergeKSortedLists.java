@@ -1,6 +1,7 @@
 package LinkedList;
 
 public class Q23MergeKSortedLists {
+    //暴力合并
     private static class MergeKLists{
         /*
             我的思路：
@@ -46,10 +47,32 @@ public class Q23MergeKSortedLists {
             return index;
         }
     }
+    //分治策略
+    private static class MergeKListsRecur {
+        /*
+        1.Divide：
+            合并k个list -> 从中间分开，子问题有：合并左半边k/2个list ， 合并右半边k/2个list
+        2.Conquer:
+            当只剩一个链表时返回自身。
+        3.Combine:
+            合并两个链表。
+        */
+        public static ListNode mergeKListsRecur(ListNode[] lists) {
+            return mergeReur(lists , 0 , lists.length - 1);
+        }
 
+        private static ListNode mergeReur(ListNode[] lists , int l , int r){
+            //base case
+            if( l == r ) return lists[l];
+            int mid = (l+r) >> 1;
+            return Q21MergeTwoSortedLists.mergeTwoLists( mergeReur(lists , l , mid) , mergeReur(lists , mid + 1 , r ) );
+        }
+    }
+
+    //test code
     public static void main(String[] args) {
         ListNode[] lists = new ListNode[] { ListNode.toListNode(new int[] {1,4,5}) , ListNode.toListNode(new int[] {1,3,4}) , ListNode.toListNode(new int[] {2,6}) };
-        System.out.println(MergeKLists.mergeKLists(lists));
+        System.out.println(MergeKListsRecur.mergeKListsRecur(lists));
     }
 
 
