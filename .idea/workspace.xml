@@ -7,6 +7,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Q20ValidParentheses">
+  <component name="RunManager" selected="Application.Q739DailyTemperatures">
     <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.ListNode" />
       <module name="Leetcode" />
@@ -53,19 +67,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q23MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.Q23MergeKSortedLists" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q739DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Q739DailyTemperatures" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q739DailyTemperatures" />
         <item itemvalue="Application.Q20ValidParentheses" />
         <item itemvalue="Application.Q25ReverseNodesinKGroup" />
         <item itemvalue="Application.ListNode" />
         <item itemvalue="Application.Q24SwapNodesInPairs" />
-        <item itemvalue="Application.Q23MergeKSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616038060583</updated>
-      <workItem from="1616038062317" duration="12856000" />
+      <workItem from="1616038062317" duration="15538000" />
     </task>
     <servers />
   </component>
@@ -139,22 +153,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616054467335" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616052351201">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616122306954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616052351201" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616052351201">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616122306954" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616122306954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616052351201" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616052351201">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616122306954" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616122306954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616052351201" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616052351201">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616122306954" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616122306954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616052351201" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616122306954" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616052278612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
