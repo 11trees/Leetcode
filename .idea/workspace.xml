@@ -32,6 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pufnJ7BqOQbBjvgmjjMDseyD7Q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,11 +44,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Coding/IntelliJ IDEA Project/StartLearnning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="Application.Q23MergeKSortedLists">
     <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -134,11 +138,23 @@
       <option name="presentableId" value="Default" />
       <updated>1616038060583</updated>
       <workItem from="1616038062317" duration="19733000" />
+      <workItem from="1617859605114" duration="2216000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1616043098905">
@@ -149,10 +165,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="717" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616043575705" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1616054467335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-2853" y="378" key="FileChooserDialogImpl" timestamp="1617860532044">
+      <screen x="-3840" y="0" width="2560" height="1413" />
     </state>
+    <state x="-2853" y="378" key="FileChooserDialogImpl/-3840.0.2560.1413/0.0.1920.1040@-3840.0.2560.1413" timestamp="1617860532044" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616054467335" />
+    <state x="-2731" y="599" width="366" height="203" key="Github.CreateGistDialog" timestamp="1617860944194">
+      <screen x="-3840" y="0" width="2560" height="1413" />
+    </state>
+    <state x="-2731" y="599" width="366" height="203" key="Github.CreateGistDialog/-3840.0.2560.1413/0.0.1920.1040@-3840.0.2560.1413" timestamp="1617860944194" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616136103146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -185,6 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
+    <state x="-3056" y="346" key="SettingsEditor" timestamp="1617860927019">
+      <screen x="-3840" y="0" width="2560" height="1413" />
+    </state>
+    <state x="-3056" y="346" key="SettingsEditor/-3840.0.2560.1413/0.0.1920.1040@-3840.0.2560.1413" timestamp="1617860927019" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616132829003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
