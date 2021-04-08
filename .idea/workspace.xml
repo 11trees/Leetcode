@@ -51,7 +51,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Q224BasicCalculator">
     <configuration name="Q20ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack.Q20ValidParentheses" />
       <module name="Leetcode" />
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q23MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.Q23MergeKSortedLists" />
+    <configuration name="Q224BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Q224BasicCalculator" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q25ReverseNodesinKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.Q25ReverseNodesinKGroup" />
+    <configuration name="Q23MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.Q23MergeKSortedLists" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q224BasicCalculator" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Q23MergeKSortedLists" />
         <item itemvalue="Application.Q739DailyTemperatures" />
         <item itemvalue="Application.Q20ValidParentheses" />
-        <item itemvalue="Application.Q25ReverseNodesinKGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616038060583</updated>
       <workItem from="1616038062317" duration="19733000" />
-      <workItem from="1617859605114" duration="4102000" />
+      <workItem from="1617859605114" duration="10348000" />
     </task>
     <servers />
   </component>
@@ -168,41 +168,45 @@
       <screen x="-3840" y="0" width="2560" height="1413" />
     </state>
     <state x="-2731" y="599" width="366" height="203" key="Github.CreateGistDialog/-3840.0.2560.1413/0.0.1920.1040@-3840.0.2560.1413" timestamp="1617860944194" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1617863748394">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1617883029394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617863748394" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617883029394" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103146" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1617863748393">
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1617883029394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617863748393" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617883029394" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1617863748393">
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1617883029394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617863748393" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617883029394" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1617863748394">
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1617883029394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617863748394" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617883029394" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616052278612">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1617883029394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617883029394" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616052278612">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1617883029394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617883029394" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616052278612">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1617883029394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617883029394" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616052278612">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1617883029394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617883029394" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
     <state x="-3056" y="346" key="SettingsEditor" timestamp="1617860927019">
       <screen x="-3840" y="0" width="2560" height="1413" />
@@ -212,6 +216,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616132829003" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/Q224BasicCalculator.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Leetcode$Q25ReverseNodesinKGroup.ic" NAME="Q25ReverseNodesinKGroup Coverage Results" MODIFIED="1616048921545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
