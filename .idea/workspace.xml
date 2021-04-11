@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded57ec0-4df7-4cbb-9d6b-97ca22828848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Stack/Q394DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Q316RemoveDuplicateLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Q402removeKDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
@@ -57,7 +58,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Q394DecodeString">
+  <component name="RunManager" selected="Application.Q316RemoveDuplicateLetters">
     <configuration name="Q224BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack.Q224BasicCalculator" />
       <module name="Leetcode" />
@@ -84,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q394DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Q394DecodeString" />
+    <configuration name="Q316RemoveDuplicateLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Q316RemoveDuplicateLetters" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q739DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Q739DailyTemperatures" />
+    <configuration name="Q394DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Q394DecodeString" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q394DecodeString" />
+        <item itemvalue="Application.Q316RemoveDuplicateLetters" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Q394DecodeString" />
         <item itemvalue="Application.Q224BasicCalculator" />
         <item itemvalue="Application.Q23MergeKSortedLists" />
-        <item itemvalue="Application.Q739DailyTemperatures" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +140,7 @@
       <updated>1616038060583</updated>
       <workItem from="1616038062317" duration="19733000" />
       <workItem from="1617859605114" duration="19181000" />
-      <workItem from="1618107316251" duration="2647000" />
+      <workItem from="1618107316251" duration="7827000" />
     </task>
     <servers />
   </component>
@@ -178,45 +179,45 @@
       <screen x="-3840" y="0" width="2560" height="1413" />
     </state>
     <state x="-2731" y="599" width="366" height="203" key="Github.CreateGistDialog/-3840.0.2560.1413/0.0.1920.1040@-3840.0.2560.1413" timestamp="1617860944194" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1618109656149">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1618117135816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618109656149" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618117135816" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103146" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1618109656149">
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1618117135816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618109656149" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618117135816" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1618109656148">
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1618117135816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618109656148" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618117135816" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1618109656149">
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1618117135816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618109656149" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618117135816" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1618109619001">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1618117135817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618109619001" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618117135817" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1618109619000">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1618117135816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618109619000" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618117135816" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1618109619000">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1618117135816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618109619000" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618117135816" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1618109619000">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1618117135817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618109619000" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618117135817" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
     <state x="-3056" y="346" key="SettingsEditor" timestamp="1617860927019">
       <screen x="-3840" y="0" width="2560" height="1413" />
@@ -248,6 +249,16 @@
           <url>file://$PROJECT_DIR$/src/Stack/Q394DecodeString.java</url>
           <line>10</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/Q316RemoveDuplicateLetters.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
