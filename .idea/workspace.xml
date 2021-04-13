@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded57ec0-4df7-4cbb-9d6b-97ca22828848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/Q621TaskScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/QBuildBinaryExpressionTreeFromInfixExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,20 +57,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Q621TaskScheduler">
-    <configuration name="Q224BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Q224BasicCalculator" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QBuildBinaryExpressionTreeFromInfixExpression">
     <configuration name="Q316RemoveDuplicateLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack.Q316RemoveDuplicateLetters" />
       <module name="Leetcode" />
@@ -110,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QBuildBinaryExpressionTreeFromInfixExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.QBuildBinaryExpressionTreeFromInfixExpression" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Leetcode" />
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QBuildBinaryExpressionTreeFromInfixExpression" />
         <item itemvalue="Application.Q621TaskScheduler" />
         <item itemvalue="Application.Q316RemoveDuplicateLetters" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Q394DecodeString" />
-        <item itemvalue="Application.Q224BasicCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,7 @@
       <workItem from="1616038062317" duration="19733000" />
       <workItem from="1617859605114" duration="19181000" />
       <workItem from="1618107316251" duration="8559000" />
-      <workItem from="1618195619471" duration="5688000" />
+      <workItem from="1618195619471" duration="7220000" />
     </task>
     <servers />
   </component>
@@ -180,45 +180,45 @@
       <screen x="-3840" y="0" width="2560" height="1413" />
     </state>
     <state x="-2731" y="599" width="366" height="203" key="Github.CreateGistDialog/-3840.0.2560.1413/0.0.1920.1040@-3840.0.2560.1413" timestamp="1617860944194" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1618205065189">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1618298743340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618205065189" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618298743340" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103146" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1618205065189">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1618298743340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618205065189" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618298743340" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1618205065188">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1618298743340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618205065188" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618298743340" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1618205065189">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1618298743340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618205065189" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618298743340" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1618205065257">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1618298536590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618205065257" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618298536590" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1618205065257">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1618298536590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618205065257" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618298536590" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1618205065257">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1618298536590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618205065257" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618298536590" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1618205065257">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1618298536590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618205065257" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1618298536590" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
     <state x="-3056" y="346" key="SettingsEditor" timestamp="1617860927019">
       <screen x="-3840" y="0" width="2560" height="1413" />
