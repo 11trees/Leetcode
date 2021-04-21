@@ -8,8 +8,9 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        String s1 = "ab";
-        String s2 = new String("ab");
+        String s1 = "landi";
+        String s2 = new String("landi");
         System.out.println(s1 == s2);
     }
+
 }
