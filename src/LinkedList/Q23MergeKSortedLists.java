@@ -58,6 +58,9 @@ public class Q23MergeKSortedLists {
             合并两个链表。
         */
         public static ListNode mergeKListsRecur(ListNode[] lists) {
+            //边界条件
+            if(lists.length == 0) return null;
+            //Java数组不能像python一样切片，所以添加左右下标来来划分区域。
             return mergeReur(lists , 0 , lists.length - 1);
         }
 
