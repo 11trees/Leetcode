@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ded57ec0-4df7-4cbb-9d6b-97ca22828848" name="Default Changelist" comment="" />
+    <list default="true" id="ded57ec0-4df7-4cbb-9d6b-97ca22828848" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tree/Q124BinaryTreeMaximumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +60,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.Q105ConstructBinaryTreeFromPreorderAndInorderTraversal (2)">
+  <component name="RunManager" selected="JUnit.Q124BinaryTreeMaximumPathSum.testSolution">
     <configuration name="Q103BinaryTreeZigzagLevelOrderTraversal" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
@@ -105,21 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q105ConstructBinaryTreeFromPreorderAndInorderTraversal (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tree" />
-      <option name="MAIN_CLASS_NAME" value="Tree.Q105ConstructBinaryTreeFromPreorderAndInorderTraversal" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Q105ConstructBinaryTreeFromPreorderAndInorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
@@ -151,13 +139,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q124BinaryTreeMaximumPathSum.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tree" />
+      <option name="MAIN_CLASS_NAME" value="Tree.Q124BinaryTreeMaximumPathSum" />
+      <option name="METHOD_NAME" value="testSolution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Q124BinaryTreeMaximumPathSum.testSolution" />
         <item itemvalue="JUnit.Q105ConstructBinaryTreeFromPreorderAndInorderTraversal (2)" />
         <item itemvalue="JUnit.Q105ConstructBinaryTreeFromPreorderAndInorderTraversal.testMySolution" />
         <item itemvalue="JUnit.Q105ConstructBinaryTreeFromPreorderAndInorderTraversal" />
         <item itemvalue="JUnit.Q105ConstructBinaryTreeFromPreorderAndInorderTraversal (1)" />
-        <item itemvalue="JUnit.Q105ConstructBinaryTreeFromPreorderAndInorderTraversal (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +182,7 @@
       <workItem from="1618389940598" duration="2471000" />
       <workItem from="1618467663308" duration="1350000" />
       <workItem from="1618964894368" duration="7196000" />
-      <workItem from="1618985321677" duration="8546000" />
+      <workItem from="1618985321677" duration="9501000" />
     </task>
     <servers />
   </component>
@@ -226,45 +230,45 @@
       <screen x="-3840" y="0" width="2560" height="1413" />
     </state>
     <state x="-2731" y="599" width="366" height="203" key="Github.CreateGistDialog/-3840.0.2560.1413/0.0.1920.1040@-3840.0.2560.1413" timestamp="1617860944194" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1619067409456">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1619071308435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619067409456" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071308435" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103146" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1619067409456">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1619071308434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619067409456" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071308434" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1619067409456">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1619071308434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619067409456" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071308434" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1619067409456">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1619071308434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619067409456" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071308434" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616136103145" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1619067413859">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1619071245453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619067413859" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071245453" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1619067413859">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1619071245453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619067413859" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071245453" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1619067413859">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1619071245452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619067413859" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071245452" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1619067413859">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1619071245453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619067413859" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071245453" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616052278612" />
     <state x="588" y="195" key="SettingsEditor" timestamp="1618985555367">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -291,10 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="224" key="new project wizard/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617948977671" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617943000271">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1619071089690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1617943000271" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-3840.0.2560.1413/0.0.1920.1040@0.0.1920.1040" timestamp="1619071089690" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616132829003" />
   </component>
   <component name="XDebuggerManager">
