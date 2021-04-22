@@ -41,13 +41,6 @@ public class Q103BinaryTreeZigzagLevelOrderTraversal {
             return ret;
         }
     }
-    
-
-
-    @Test
-    public void TestMethod(){
-
-    }
 
 }
 

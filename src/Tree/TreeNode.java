@@ -17,6 +17,10 @@ public class TreeNode {
         this.right = right;
     }
 
+    @Override
+    public String toString() {
+        return levelOrder(this);
+    }
 
     public static TreeNode NodeFromList (ArrayList<Integer> vals){
         /*-----从数组构建一般二叉树-----*/
