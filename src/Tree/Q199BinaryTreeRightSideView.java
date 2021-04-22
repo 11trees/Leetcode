@@ -6,6 +6,9 @@ import java.util.Deque;
 import java.util.List;
 
 public class Q199BinaryTreeRightSideView {
+    /*
+    利用层序遍历得到结果。
+     */
     private static class MySolution{
         public List<Integer> rightSideView(TreeNode root) {
             List<Integer> ret = new ArrayList<>();
